@@ -227,10 +227,26 @@ body {
     display: flex;
 }
 .middle_section div.web div.right {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
-
+    /* border: 2px solid blue; */
+}
+.middle_section div.web div.right ul {
+    /* border: 2px solid red; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.middle_section div.web div.right ul a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    background-color: #EBEBFF;
+    border-radius: 5px;
+    color: #6070FF;
 }
 
 .middle_section div.web div.right div.front {
