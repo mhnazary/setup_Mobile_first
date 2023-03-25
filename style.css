@@ -1,14 +1,14 @@
 * {
-     margin: 0;
-     padding: 0;
-     font-family: "Poppins", sans-serif;
-     box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-     width: 375px;
-     margin: 0 auto;
-     border: 1px solid black;
+  width: 375px;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 /* start header part */
@@ -159,11 +159,9 @@ body {
 /* Start middl section  */
 
 .middle_section {
-    height: 552px;
+      height: 552px;
     width: 343px;
     margin: 40px 16px 0px 16px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-    linear-gradient(0deg, #DFE1E6, #DFE1E6);
 }
 
 .middle_section div.pic {
