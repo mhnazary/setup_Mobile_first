@@ -244,6 +244,15 @@ body {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
+  padding: 5px 0 0 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.middle_section div.link a:hover{
+  background-color: #84a7ff;
+  color: white;
+  font-weight: bold;
 }
 
 section.about div.link a {
@@ -251,6 +260,15 @@ section.about div.link a {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
+  padding: 7px 0 0 13px;
+  height: 100%;
+  width: 100%;
+}
+
+section.about div.link a:hover{
+  background-color: #84a7ff;
+  color: black;
+  font-weight: bold;   
 }
 
 .middle_section div.web div.right ul a {
