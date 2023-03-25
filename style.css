@@ -363,6 +363,10 @@ section.about div.select ul.lang li.lang h2 {
     font-weight: 500;
 }
 
+section.about div.select ul.lang li.lang i {
+    margin-right: 15px;
+}
+
 section.about div.select ul.lang div.contain {
     height: 180px;
     width: 96%;
