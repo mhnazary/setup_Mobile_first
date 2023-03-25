@@ -192,7 +192,7 @@ body {
 
 .middle_section div.descript div.year {
   width: 70%;
-  color: #7A869A;
+  color: #7a869a;
   font-size: 13px;
 }
 
@@ -202,7 +202,7 @@ body {
 }
 
 .middle_section div.descript div.year ul.list li {
-  margin: 0px 15px;
+  margin: 0 15px;
 }
 
 .middle_section div.task {
@@ -212,7 +212,7 @@ body {
 }
 
 .middle_section div.task p {
-  color:  #344563;
+  color: #344563;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -222,7 +222,7 @@ body {
 .middle_section div.web {
   width: 295px;
   height: 24px;
-  margin: 0px 20px;
+  margin: 0 20px;
   display: flex;
 }
 
@@ -238,51 +238,57 @@ body {
   justify-content: space-around;
   width: 100%;
 }
+section.about div.link a {
+  text-decoration: none;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.middle_section div.link a {
+  text-decoration: none;
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+}
 
 .middle_section div.web div.right ul a {
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
   padding: 5px 12px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   border-radius: 5px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .middle_section div.web div.right div.front {
-  background-color:#EBEBFF ;
+  background-color: #ebebff;
   border-radius: 5px;
-  margin: 0px 10px;
+  margin: 0 10px;
   padding-bottom: 5px;
 }
 
-.middle_section div.web div.right div.front a{
+.middle_section div.web div.right div.front a {
   text-decoration: none;
-  color: #6070FF;
+  color: #6070ff;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .middle_section div.link {
   width: 110px;
   height: 40px;
-  margin: 0px 20px;   
-  border: 1px solid #396DF2;
+  margin: 0 20px;   
+  border: 1px solid #396df2;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 25px;
   border-radius: 5px;
-}
-
-.middle_section div.link a {
-  text-decoration: none;
-  color: #396DF2;
-  font-size: 17px;
-  font-weight: 500;
 }
 
 /* End middle part  */
@@ -324,20 +330,13 @@ section.about div.lets_contact {
 section.about div.link {
   width: 160px;
   height: 45px;  
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  margin:5px 0px 0px 15px;
+  margin: 5px 0 0 15px;
   margin-bottom: 30px;
-}
-
-section.about div.link a {
-  text-decoration: none;
-  color: #396DF2;
-  font-size: 17px;
-  font-weight: 500;
 }
 
 section.about div.select {
@@ -354,7 +353,9 @@ section.about div.select ul.lang {
   width: 100%;
 }
 
-section.about div.select ul.lang li.lang div.lang,div.framework, div.skill {
+section.about div.select ul.lang li.lang div.lang,
+div.framework,
+div.skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -381,12 +382,12 @@ section.about div.select ul.lang div.contain {
 }
 
 section.about div.select ul.lang div.contain ul li.con {
-  background-color:  #F7F7F9;
-  margin: 0px 5px 5px 10px;
+  background-color:  #f7f7f9;
+  margin: 0 5px 5px 10px;
   display: flex;
   align-items: center;
 }
 
 section.about div.select ul.lang div.contain ul li.con img {
-  margin: 0px 20px 5px 10px;
+  margin: 0 20px 5px 10px;
 }
