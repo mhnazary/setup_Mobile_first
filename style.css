@@ -245,6 +245,7 @@ body {
   font-size: 17px;
   font-weight: 500;
 }
+
 section.about div.link a {
   text-decoration: none;
   color: #396df2;
@@ -282,6 +283,7 @@ section.about div.link a {
 .middle_section div.link {
   width: 110px;
   height: 40px;
+  
   margin: 0 20px;   
   border: 1px solid #396df2;
   display: flex;
