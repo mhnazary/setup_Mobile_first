@@ -7,8 +7,9 @@
 
 body {
   width: 375px;
-  height: 718px;
+  /* height: 718px; */
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 /* start header part */
@@ -86,7 +87,9 @@ body {
   order: 0;
   flex-grow: 0;
 }
-
+.container .me h1 {
+    font-size: 40px;
+}
 .container .bio {
   width: 327px;
   height: 146px;
@@ -122,10 +125,9 @@ body {
 }
 
 .social_media {
-  padding-top: 5%;
+  padding-top: 0%;
   margin: 0 auto;
   display: flex;
-  padding-bottom: 6%;
 }
 
 .social-icons-set {
@@ -150,5 +152,6 @@ body {
 .social-icon + .social-icon {
   margin-left: 10px;
 }
+
 
 /* coming soon */
