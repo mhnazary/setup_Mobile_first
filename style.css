@@ -238,14 +238,14 @@ body {
   justify-content: space-around;
   width: 100%;
 }
-section.about div.link a {
+
+.middle_section div.link a {
   text-decoration: none;
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
 }
-
-.middle_section div.link a {
+section.about div.link a {
   text-decoration: none;
   color: #396df2;
   font-size: 17px;
@@ -382,7 +382,7 @@ section.about div.select ul.lang div.contain {
 }
 
 section.about div.select ul.lang div.contain ul li.con {
-  background-color:  #f7f7f9;
+  background-color: #f7f7f9;
   margin: 0 5px 5px 10px;
   display: flex;
   align-items: center;
