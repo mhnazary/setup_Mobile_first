@@ -283,9 +283,10 @@ section.about div.link a {
 .middle_section div.link {
   width: 110px;
   height: 40px;
-  margin: 0 20px;   
-  border: 1px solid #396df2;
+  margin: 0 20px; 
   
+  /* comment */
+  border: 1px solid #396df2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,6 +333,7 @@ section.about div.lets_contact {
 section.about div.link {
   width: 160px;
   height: 45px;
+
   /* comment */
   border: 1px solid #396df2;
   display: flex;
