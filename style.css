@@ -7,6 +7,7 @@
 
 body {
   width: 375px;
+
   /* height: 718px; */
   margin: 0 auto;
   border: 1px solid black;
@@ -87,9 +88,11 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .container .me h1 {
     font-size: 40px;
 }
+
 .container .bio {
   width: 327px;
   height: 146px;
@@ -152,6 +155,5 @@ body {
 .social-icon + .social-icon {
   margin-left: 10px;
 }
-
 
 /* coming soon */
